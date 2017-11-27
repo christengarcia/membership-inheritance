@@ -14,3 +14,11 @@ namespace membership_inheritance
         }
     }
 }
+
+class Member
+{
+    protected int annualFee;
+    private string name;
+    private int memberID;
+    private int memberSince;
+}
