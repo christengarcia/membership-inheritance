@@ -1,4 +1,4 @@
-# membership-inheritance
+# Membership Inheritance
 
 A program for a fitness club that has two types of membership - VIP and Normal.
 
