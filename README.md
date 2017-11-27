@@ -59,7 +59,7 @@ protected int annualFee
 #### Methods
 *Inherited from parent class:*
 ```C#
-public override sring ToString()
+public override string ToString()
 ```
 
 *Declared in child class:*
