@@ -22,3 +22,11 @@ class Member
     private int memberID;
     private int memberSince;
 }
+
+public override string ToString()
+{
+    return "\name: " + name + "\nMember ID: " + memberID
+                              + "\nMember Since: " + memberSince
+                              + "\nTotal Annual Fee: " + annualFee; 
+}
+
