@@ -10,7 +10,7 @@ namespace membership_inheritance
     {
         static void Main(string[] args)
         {
-            NormalMember mem1 = new NormalMember("Special Rate", "James", 1, 2010);
+            /*NormalMember mem1 = new NormalMember("Special Rate", "James", 1, 2010);
             VIPMember mem2 = new VIPMember("Andy", 2, 2011);
 
             mem1.CalculateAnnualFee();
@@ -19,7 +19,15 @@ namespace membership_inheritance
             Console.WriteLine(mem1.ToString());
             Console.WriteLine(mem2.ToString());
 
-            Console.Read();
+            Console.Read();*/
+
+            Member[] clubMembers = new Member[5];
+
+            clubMembers[0] = new NormalMember("Special Rate", "James", 1, 2016);
+            clubMembers[1] = new NormalMember("Normal Rate", "Andy", 2, 2017);
+            clubMembers[2] = new NormalMember("Normal Rate", "Bill", 3, 2017);
+            clubMembers[3] = new VIPMember("Carol", 4, 2017);
+            clubMembers[4] = new VIPMember("Evelyn", 5, 2017);
         }
     }
 
