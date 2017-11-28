@@ -28,6 +28,12 @@ namespace membership_inheritance
             clubMembers[2] = new NormalMember("Normal Rate", "Bill", 3, 2017);
             clubMembers[3] = new VIPMember("Carol", 4, 2017);
             clubMembers[4] = new VIPMember("Evelyn", 5, 2017);
+
+            foreach (Member m in clubMembers)
+            {
+                m.CalculateAnnualFee();
+                Console.WriteLine(m.ToString());
+            }
         }
     }
 
