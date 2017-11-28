@@ -66,7 +66,7 @@ namespace membership_inheritance
             memberSince = pMemberSince;
         }
 
-        public void CalculateAnnualFee()
+        public virtual void CalculateAnnualFee()
         {
             annualFee = 0;
         }
@@ -86,7 +86,7 @@ namespace membership_inheritance
             Console.WriteLine("Remarks = {0}", remarks);
         }
 
-        public void CalculateAnnualFee()
+        public override void CalculateAnnualFee()
         {
             annualFee = 100 + 12 * 30;
         }
@@ -101,7 +101,7 @@ namespace membership_inheritance
             Console.WriteLine("Child Constructor with 3 parameters");
         }
 
-        public void CalculateAnnualFee()
+        public override void CalculateAnnualFee()
         {
             annualFee = 1200;
         }
