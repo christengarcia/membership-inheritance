@@ -65,6 +65,11 @@ namespace membership_inheritance
             memberID = pMemberID;
             memberSince = pMemberSince;
         }
+
+        public void CalculateAnnualFee()
+        {
+            annualFee = 0;
+        }
     }
 
     class NormalMember : Member
